@@ -1,22 +1,27 @@
 //////////////////////////////////////////////////////////////////////////////
-// Copyright (C) 2014 Wildlife Acoustics, Inc.
+// Copyright (C) 2014-2017 Wildlife Acoustics, Inc.
 // 
-// This program is free software: you can redistribute it and/or modify
-// it under the terms of the GNU General Public LIcense as published by 
-// the Free Software Foundation, either version 3 of the License, or 
-// (at yuour option) any later version.
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
 //
-// This program is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the 
-// GNU General Public License for more details.
+// The above copyright notice and this permission notice shall be included in all
+// copies or substantial portions of the Software.
 //
-// You should have received a copy of the GNU General Public License
-// along with this program. If not, see <http://www.gnu.org/licenses/>.
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+// SOFTWARE.
 //
 // Wildlife Acoustics, Inc.
-// 3 Clock Tower Place, Suite 210
-// Maynard, MA 01754-2549
+// 3 Mill and Main Place, Suite 210
+// Maynard, MA 01754-2657
 // +1 978 369 5225
 // www.wildlifeacoustics.com
 //
@@ -194,9 +199,7 @@ int main(int argc, char **argv)
   // Copyright
   fprintf(stderr, "\r\nwac2wavcmd 1.0 Copyright (C) 2014 Wildlife Acoustics, Inc.\r\n\r\n"
                   "This program comes with ABSOLUTELY NO WARRANTY;\r\n"
-		  "This is free software, and you are welcome to redistribute it\r\n" 
-		  "under certain conditions;  Please refer to the GNU GPLv3 license at\r\n"
-		  "<http://www.gnu.org/licenses/> for details.\r\n\r\n"
+		  "This is free software, and you are welcome to redistribute it.\r\n\r\n" 
 		  "Usage: reads stdin for .wac file and writes .wav file to stdout\r\n\r\n"
 		  "Progress: "
          );
